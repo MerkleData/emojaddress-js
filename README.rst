@@ -34,6 +34,7 @@ Browser, webpack build:
 .. code-block:: javascript
     
     $ npm install --save emojaddress
+    $ webpack --config ./webpack.config.js
 
     var emojaddress = require('emojaddress').default;
 
