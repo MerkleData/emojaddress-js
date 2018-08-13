@@ -2,7 +2,7 @@
   "name": "emojaddress",
   "version": "0.1.1",
   "description": "Emoji mnemonic for Ethereum and Bitcoin addresses, also support English, Chinese mnemonic.",
-  "main": "dist/build-back.js",
+  "main": "dist/bundle-back.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack-front.config.js --mode development",
     "build": "webpack --config ./webpack-backend.config.js && webpack --config ./webpack-frontend.config.js",
