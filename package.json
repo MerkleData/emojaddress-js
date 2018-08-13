@@ -1,0 +1,42 @@
+{
+  "name": "emojaddress",
+  "version": "0.1.0",
+  "description": "Emoji mnemonic for Ethereum and Bitcoin addresses, also support English, Chinese mnemonic.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack-front.config.js --mode development",
+    "build": "webpack --config ./webpack-backend.config.js && webpack --config ./webpack-frontend.config.js",
+    "test": "ava tests/**/*.js",
+    "test-w": "ava -w tests/**/*.js",
+    "prepublish": "npm build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "js-emojaddress"
+  },
+  "keywords": [
+    "emoji",
+    "mnemonics",
+    "bitcoin",
+    "ethereum",
+    "address"
+  ],
+  "author": "lonex",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
