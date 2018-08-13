@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "js-emojaddress"
+    "url": "https://github.com/MerkleData/emojaddress-js.git"
   },
   "keywords": [
     "emoji",
@@ -21,7 +21,10 @@
     "ethereum",
     "address"
   ],
-  "author": "lonex",
+  "author": {
+    "name": "lonex",
+    "email": "stonelonely@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.25.0",
